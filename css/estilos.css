@@ -1,0 +1,305 @@
+/* Reset*/ 
+*{
+    box-sizing: border-box
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+}
+/* Configuración Cuerpo*/ 
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #68829E;
+    margin: 0;
+    overflow-x: hidden;
+}
+/* Configuración Cabecera Cuerpo*/
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #505160;
+    z-index: 1;
+    color: white;
+}
+/* Configuración Cabecera Cuerpo*/
+.header_tittle{
+    text-align: center;
+    padding-top: 10px;
+}
+/* Configuración Menu navegación*/
+.menu_nav{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+/* Configuración Menu navegación*/
+.menu_nav ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    width: 40%;
+}
+/* Configuración Menu navegación*/
+.menu_nav li{
+    display: inline;
+    text-align: left;
+    margin: 0 5px 0 0;
+}
+/* Configuración Menu navegación*/
+.menu_nav a{
+    padding: 2px 7px 2px 7px;
+    background-color: #505160;
+    text-decoration: none;
+}
+/* Configuración Menu navegación*/
+.current{
+    background-color: #505160;
+    color: #AEBD38;
+}
+/* Configuración Menu navegación*/
+.other{
+    background-color: #505160;
+    color: white;
+}
+/* Configuración Menu navegación*/
+.current:hover,
+.other:hover{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 3px;
+}
+/* Configuración del Main */
+#main-ini{
+    display: flex;
+    justify-content: center;
+    height: 720px;
+    padding: 1rem;
+}
+/* Configuración Footer*/
+footer{
+    display: flex;
+    height: 110px;
+    background-color: #505160;
+    padding-right: 15px;
+}
+/* Configuración Footer*/
+footer>div>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    
+}
+/* Configuración Footer*/  
+#redes_so{
+    display: flex;
+    align-items: start;
+    flex:0 0 40%;
+    color: white;
+}
+/* Configuración Footer*/
+.aviso_legal{
+    display: flex;
+    flex: 0 0 54.9%;
+    flex-direction: row;
+    height:40px;
+    font-size: medium;
+    color: white;
+    padding-top: 20px;
+}
+/* Configuración Footer*/
+.linkedin{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+/* Configuración del Logo de la Empresa */
+.logo{
+    width: 99px;
+    height: 100%;
+    border-radius: 5px;
+}
+/* Configuración del contenido Inicio*/
+.teclados{
+    width: 100%;
+    overflow: visible;
+}
+/* Configuración del contenido Inicio*/
+p{
+    font-size: 1.3rem;
+}
+/* Configuración del contenido Inicio*/
+.item-a{
+    display: flex;
+    flex: 0 0 80%;
+    width: 900px;
+    height: 690px;
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: -8px 8px 5px black;
+}
+/* Configuración del contenido Inicio*/
+.text-center-a{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    color:#e8ebd8
+}
+/* Configuración del contenido Inicio*/
+.img-a {
+    width: 100%;
+    height: 100%;
+}
+/* Configuración del contenido Inicio*/
+.item-b{
+    width: 800px;
+    height: 690px;
+    position: relative;
+    text-align: center;
+    box-shadow: 8px 8px 5px black;
+}
+/* Configuración del contenido Inicio*/
+.text-center-b{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    color:#e8ebd8
+}
+/* Configuración del contenido Inicio*/
+.img-b{
+    width:792px;
+    height: 346px;
+}
+/* Configuración del contenido Inicio*/
+.item-c{
+    width: 798px;
+    height: 346px;
+    position: relative;
+    text-align: center;
+}
+/* Configuración del contenido Inicio*/
+.text-center-c{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    color:#e8ebd8;
+    
+}
+/* Configuración del contenido Inicio*/
+.img-c{
+    width:792px;
+    height: 335px;
+}
+/* -----------------------------------*/
+/* CONFIGURACIÓN PÁGINA DE PRODUCTOS*/
+#main-prod{
+    max-width: 1100px;
+    max-height: 1500px;
+    padding: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px 250px;
+    grid-gap: 1rem;
+}
+/* Configuración de las imágenes de los productos */
+.img-grid{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 5px 5px 5px black;
+}
+/* -----------------------------------*/
+/* CONFIGURACIÓN PÁGINA DE PRESUPUESTOS*/
+
+/* Configuración del main */
+#main-presu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 1500px;
+    height: 696px;
+}
+.title-presu{
+    margin-top: 80px;
+}
+/* Configuración del Formulario */
+#form-presu{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    display: flex;
+	width:300px;
+    height: 400px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+form label{
+	font-weight:bold;
+	display:inline-block;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"]{
+	width:260px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}
+.form-container{
+    margin: auto;
+}
+/* -----------------------------------*/
+/* CONFIGURACIÓN PÁGINA DE CONTACTO*/
+.maps-contact{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 820px; 
+}
+.list-contact{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+    list-style-type:square;
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    color: white;
+}
+
+
+

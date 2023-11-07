@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="página para la venta de artículos de oficina, sobre todo de teclados mecánicos" />
+    <meta name="robots" content="FOLLOW" />
+    <meta name="author" content="Francisco" />
+    <meta name="keywords" content="teclados mecanicos, monitores, ratones, gamers" />
+    <meta name="lang" content="es" />
+    <meta name="revisit-after" content="2 days" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecladin</title>
+    <meta name="description" content="Teclados Mecánicos">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="header_tittle"><h1>Presupuestos</h1>
+            <nav class="menu_nav">
+                <ul>
+                    <li><a href="index.html" class="other">Inicio</a></li>
+                    <li><a href="productos.html" class="other">Productos</a></li>
+                    <li><a href="presupuestos.html" class="current">Presupuestos</a></li>
+                    <li><a href="contacto.html" class="other">Contacto</a></li>
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+    <div class="tittle-presu"><h2 >Realiza aquí tu petición de presupuesto</h2>
+    </div>
+
+    <main id="main-presu">
+        <div class="form-container">
+            <form name="presupuestos" action="presupuestos.html" id="form-presu">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" value="" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" name="teléfono" id="telefono" required>
+                <label >Solicite más información:</label>
+                <textarea required></textarea>
+                <label for="checkbox-form">Politica de Privacidad</label>
+                <input type="checkbox" name="politica" required id="checkbox-form">
+                <label ></label>
+                <button type="submit" name="enviar" value="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div id="redes_so">
+            Para mas información:
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/francisco-arroyo-alguacil/">
+                    <img src="./assets/images/linkedin.png" alt="imglinkedin" class="linkedin"></a>
+                    Visita mi perfil de Linkedin</li>
+                <li><a href="mailto:arroyo.fran28@gmail.com?Subject=Contacto%20con%20el%20autor%20de%20la%20página.">
+                    <img src="./assets/images/gmail.png" alt="imgemail" class="linkedin"></a>
+                    Envía un correo con tus dudas</li>
+            </ul>
+        </div>
+        <div class="aviso_legal">
+            Aviso Legal y Política de Privacidad.Política de cookies.<br>
+            Avd Castro del Rio N39, Llano del Espinar (Córdoba)<br>
+            Tel: 681216786 - 645958745
+        </div>
+        <div>
+            <img src="./assets/images/logo.jpg" alt="imglogo" class="logo">
+        </div>
+    </footer>
+</body>
+</html>
