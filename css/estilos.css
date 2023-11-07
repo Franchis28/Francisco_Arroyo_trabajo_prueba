@@ -301,5 +301,11 @@ textarea{
     color: white;
 }
 
+/* MEDIA QERYS PARA RESPONSIVE */
+@media screen and (max-width:480px) {
+    .menu_nav{
+        flex-direction: column;
+    }
+}
 
 
