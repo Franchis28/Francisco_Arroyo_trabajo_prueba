@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Creamos las meta-etiquetas para los motores de busqueda-->
     <meta charset="UTF-8">
     <meta name="description" content="página para la venta de artículos de oficina, sobre todo de teclados mecánicos" />
     <meta name="robots" content="FOLLOW" />
@@ -9,11 +10,13 @@
     <meta name="lang" content="es" />
     <meta name="revisit-after" content="2 days" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página -->
     <title>Tecladin</title>
-    <meta name="description" content="Teclados Mecánicos">
+    <!-- Enlazamos el proyecto con la hoja de estilos -->
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
+    <!-- Comenzamos a crear el encabezamiento de la página Título y menú de Navegación -->
     <header>
         <div class="header_tittle"><h1>Presupuestos</h1>
             <nav class="menu_nav">
@@ -23,15 +26,16 @@
                     <li><a href="presupuestos.html" class="current">Presupuestos</a></li>
                     <li><a href="contacto.html" class="other">Contacto</a></li>
                 </ul>
-                
             </nav>
         </div>
     </header>
+    <!-- Desarrollo de la estructura general del cuerpo de la página -->
     <div class="tittle-presu"><h2 >Realiza aquí tu petición de presupuesto</h2>
     </div>
-
+    <!-- El main es el container de esta página -->
     <main id="main-presu">
         <div class="form-container">
+            <!-- Creación del formulario para recibir los datos del usuario -->
             <form name="presupuestos" action="presupuestos.html" id="form-presu">
                 <label for="nombre">Nombre:</label>
                 <input type="text" name="nombre" id="nombre" value="" required>
@@ -48,7 +52,9 @@
             </form>
         </div>
     </main>
+    <!-- Desarrollo del pie de página -->
     <footer>
+        <!-- Creación de una lista desordenada para incluir la diferentes redes sociales de contacto -->
         <div id="redes_so">
             Para mas información:
             <ul>
@@ -61,11 +67,13 @@
                     Envía un correo con tus dudas</li>
             </ul>
         </div>
+        <!-- Aviso Legal y info de contacto -->
         <div class="aviso_legal">
             Aviso Legal y Política de Privacidad.Política de cookies.<br>
             Avd Castro del Rio N39, Llano del Espinar (Córdoba)<br>
             Tel: 681216786 - 645958745
         </div>
+        <!-- Logo de la empresa -->
         <div>
             <img src="./assets/images/logo.jpg" alt="imglogo" class="logo">
         </div>
